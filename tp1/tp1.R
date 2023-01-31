@@ -7,7 +7,7 @@ brutToNet1 <-function(salaire_brut){
     }
   }
   
-brutToNet1(1500)
+brutToNet1("fg")
 
 
 brutToNet2<- function(salaire_brut,contrat){
@@ -21,8 +21,9 @@ brutToNet2<- function(salaire_brut,contrat){
   else {
     print("ERROR : contract unknown")
   }
-  
+  return(salaire_net)
   
 }
+brutToNet2(2000,"non cadre")
   
   
