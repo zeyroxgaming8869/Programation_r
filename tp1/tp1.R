@@ -80,5 +80,5 @@ brutToNet3 <- function(salaire_brut, contrat, prelevement = 7.5 , temps = 100){
 }
 
 # Exemple d'utilisation
-brutToNet3(1500, "cadre")
+brutToNet3(1500, "cadre") 
 
